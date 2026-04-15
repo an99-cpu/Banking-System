@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #dff6ff, #f5f7fa);
+    margin: 0;
+    padding: 0;
+}
+
+/* Title */
+h1 {
+    text-align: center;
+    color: #0b3d91;
+    margin: 15px 0;
+    letter-spacing: 1px;
+}
+
+/* Container - vertical but compact */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;   /* 👈 reduced spacing */
+    margin: 20px;
+}
+
+/* Cards - compressed */
+.box {
+    background: white;
+    width: 300px;          /* slightly smaller */
+    padding: 12px;         /* reduced padding */
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    transition: 0.2s ease;
+}
+
+/* Hover effect (lighter) */
+.box:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Headings */
+.box h2 {
+    color: #0b3d91;
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+
+/* Text */
+.box p {
+    margin: 4px 0;
+    font-size: 14px;
+}
+
+/* Inputs */
+input {
+    width: 90%;
+    padding: 8px;
+    margin: 6px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    font-size: 13px;
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 8px;
+    background: #0b3d91;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 13px;
+    transition: 0.2s;
+}
+
+button:hover {
+    background: #062a66;
+}
