@@ -10,7 +10,7 @@ This project is a simple Banking System implemented in two versions:
 - Object-Oriented Programming (OOP) principles
 
 ## 🌐 Web Version
-- Built using HTML, CSS, and JavaScript
+- Built using HTML, CSS
 - User-friendly interface
 - Login system
 - Deposit and Withdraw simulation
@@ -20,7 +20,6 @@ This project is a simple Banking System implemented in two versions:
 - C++
 - HTML
 - CSS
-- JavaScript
 
 ## 📁 Project Structure
 - Cpp-Version → Console application
