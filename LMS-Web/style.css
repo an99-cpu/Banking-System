@@ -1,0 +1,31 @@
+body {
+    font-family: Arial;
+    background-color: #f4f4f4;
+}
+
+/* Title */
+h1 {
+    text-align: center;
+    color: darkblue;
+}
+
+/* Horizontal layout */
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+/* Boxes */
+.box {
+    background: white;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Headings */
+h2 {
+    color: darkblue;
+}
