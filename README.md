@@ -1,35 +1,41 @@
-# Banking System Project
+# Banking System
 
-This project is a simple Banking System implemented in two versions:
+A secure console-based Banking System built in C++ with a companion web interface. Supports account creation, PIN authentication, deposits, withdrawals, and persistent file-based storage.
 
-## C++ Version
-- Account creation
-- PIN-based login system
-- Deposit and Withdraw features
-- File handling for data storage
-- Object-Oriented Programming (OOP) principles
+## Screenshots
 
-## Web Version
-- Built using HTML, CSS
-- User-friendly interface
-- Login system
-- Deposit and Withdraw simulation
-- Balance display
+![Banking UI](Banking%20Sys-screenshot/Banking%20UI.png)
 
-## Technologies Used
-- C++
-- HTML
-- CSS
+## Features
+
+- PIN-based user authentication with input validation
+- Account creation and full transaction support (deposit, withdrawal, balance inquiry)
+- Data persistence using C++ fstream — accounts survive program restarts
+- Private access modifiers to protect sensitive account data (Encapsulation)
+- Web interface built with HTML & CSS to simulate the banking workflow
+
+## Tech Stack
+
+| Layer | Technology |
+|-------|-----------|
+| Core Logic | C++ |
+| OOP Concepts | Encapsulation, Classes |
+| Storage | File Handling (fstream) |
+| Web Interface | HTML, CSS |
 
 ## How to Run
-### C++:
-Compile and run using any C++ compiler
 
-### Web:
-Open index.html in any browser
+### C++ Version
+```bash
+g++ -o banking "Cpp Version/main.cpp"
+./banking
+```
 
-## Project Type
-Academic / Practice Project
+### Web Version
+Open `Banking Sys-Web/index.html` in any browser.
 
-## Author
-Abbas Noor
+## What I Learned
+
+- Implementing secure authentication logic without external libraries
+- Managing persistent storage using file I/O in C++
+- Protecting sensitive data through encapsulation principles
